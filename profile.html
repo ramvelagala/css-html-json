@@ -1,1 +1,387 @@
 
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>Data Profiling</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/album/">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="album.css">
+
+    <!--<script type="text/javascript" src="jquery.min.js"></script>-->
+
+
+
+
+</head>
+
+<body>
+
+        <main role="main">
+
+      <section class="text-center pt-7 pb-5 landing-bg text-white overflow-hidden">
+        <div class="container">
+          <h1 class="jumbotron-heading">Data Element Profiler</h1>
+        </div>
+      </section>
+
+      <div class="album py-5 bg-light">
+        <div class="container">
+
+          <div class="row">
+<div class="col-3">
+							<div class="card">
+								<div class="card-body py-4">
+									<div class="media">
+										<div class="media-body">
+											<h3 class="mb-2">HOST</h3>
+											<p class="mb-2">Venkat</p>
+											<div class="mb-0">
+
+											</div>
+										</div>
+										<div class="d-inline-block ml-3">
+											<div class="stat">
+												<img src="host.png" width="34" height="34" viewBox="0 0 24 24" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="card">
+								<div class="card-body py-4">
+									<div class="media">
+										<div class="media-body">
+											<h3 class="mb-2">TABLE</h3>
+											<p class="mb-2">Profiler_sk</p>
+										</div>
+										<div class="d-inline-block ml-3">
+											<div class="stat">
+												<img src="table.png" width="34" height="34" viewBox="0 0 24 24" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="card">
+								<div class="card-body py-4">
+									<div class="media">
+										<div class="media-body">
+											<h3 class="mb-2">DATABASE</h3>
+											<p class="mb-2">Netezza</p>
+										</div>
+										<div class="d-inline-block ml-3">
+											<div class="stat">
+												<img src="database.png" width="34" height="34" viewBox="0 0 24 24" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+
+          </div>
+
+        </div>
+      </div>
+	  <div class="container" style="margin-top:50px">
+		  <div class="row">
+<div class="col-12">
+							<div class="card">
+								<div class="card-header">
+									<h5 class="card-title mb-0">Element Metrics</h5>
+								</div>
+								<table class="table table-bordered">
+									<thead>
+										<tr>
+											<th>Column Name</th>
+											<th>Data Type</th>
+											<th>Is Nullable</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Value_SK</td>
+											<td>STR</td>
+											<td>False</td>
+										</tr>
+
+									</tbody>
+								</table>
+							</div>
+						</div>
+</div></div>
+    </main>
+
+<!--
+
+<div class="container">
+
+    <h2><b>
+        <center>Data Element Profiler</center>
+    </b></h2>
+
+    <br>
+
+    <div class="row" style="border: 2px solid;width:99%;margin-left:5px" id="heading">
+
+        <h4> Host : Venkat</h4>
+
+        <h4> Table : Profiler_sk </h4>
+
+        <h4> DB Name: Netezza </h4>
+
+    </div>
+
+    <br/>
+
+    <h4>
+        <center><b>Element Metrics</b></center>
+    </h4>
+
+    <table border="2" class="table">
+
+        <tr>
+
+            <th>Column Name</th>
+
+            <th>Data Type</th>
+
+            <th>Is Nullable</th>
+
+        </tr>
+
+        <tr>
+
+            <td>Value_SK</td>
+
+            <td>INT</td>
+
+            <td>False</td>
+
+        </tr>
+
+
+    </table>
+
+
+
+    <h4>
+        <center><b>Domain Metrics</b></center>
+    </h4>
+
+    <table id="userdata" border="2" class="table">
+
+
+        <tbody>
+
+        <tr>
+            <th>Total Rows</th>
+            <th>Nulls</th>
+        </tr>
+
+        <tr>
+
+            <td> 15505.0</td>
+
+            <td> 0</td>
+
+        </tr>
+
+        <tr>
+            <th>Cardinality</th>
+            <th>Uniqueness %</th>
+        </tr>
+
+        <tr>
+
+            <td> 501.0</td>
+
+            <td> 3.2312</td>
+
+        </tr>
+
+        </tbody>
+
+
+    </table>
+
+    <div id="range_metrics">
+
+        <h4>
+            <center><b> Range Metrics </b></center>
+        </h4>
+
+        <table class="table" border="1">
+            <tr><th >Mean</th><th colspan='8'>Standard Deviation</th></tr>
+            <tr>
+                <td>249.808771</td>
+                <td>5.76</td>
+            </tr>
+            <tr><th>Lowest Value </th><th>Median</th><th>Highest Value</th></tr>
+            <tr>
+                <td>-1.0</td>
+                <td>248.0</td>
+                <td>500.0</td>
+            </tr>
+        </table>
+
+    </div>
+        <h4>
+            <center><b> Quadrant Metrics </b></center>
+        </h4>
+    <div id="metrics_data" style="border:2px solid;">
+        <h4><b>Most Common Values</b></h4>
+        <table class="table">
+            <thead>
+                <th>Value</th>
+                <th>Count</th>
+                <th>Coverage</th>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td>223</td>
+                    <td>49</td>
+                    <td>0.316</td>
+                </tr>
+                
+                <tr>
+                    <td>13</td>
+                    <td>48</td>
+                    <td>0.3096</td>
+                </tr>
+                
+                <tr>
+                    <td>108</td>
+                    <td>47</td>
+                    <td>0.3031</td>
+                </tr>
+                
+                <tr>
+                    <td>478</td>
+                    <td>46</td>
+                    <td>0.2967</td>
+                </tr>
+                
+                <tr>
+                    <td>52</td>
+                    <td>46</td>
+                    <td>0.2967</td>
+                </tr>
+                
+            </tbody>
+
+        </table>
+
+        <h4><b>Least Common Values</b></h4>
+        <table class="table">
+            <thead>
+                <th>Value</th>
+                <th>Count</th>
+                <th>Coverage</th>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td>270</td>
+                    <td>16</td>
+                    <td>0.1032</td>
+                </tr>
+                
+                <tr>
+                    <td>24</td>
+                    <td>17</td>
+                    <td>0.1096</td>
+                </tr>
+                
+                <tr>
+                    <td>329</td>
+                    <td>18</td>
+                    <td>0.1161</td>
+                </tr>
+                
+                <tr>
+                    <td>107</td>
+                    <td>18</td>
+                    <td>0.1161</td>
+                </tr>
+                
+                <tr>
+                    <td>454</td>
+                    <td>19</td>
+                    <td>0.1225</td>
+                </tr>
+                
+            </tbody>
+
+        </table>
+
+        <h4><b>Focus Metrics</b></h4>
+        <table class="table">
+            <thead>
+                <th>Value</th>
+                <th>Count</th>
+                <th>Coverage</th>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td>22</td>
+                    <td>37</td>
+                    <td>0.2386</td>
+                </tr>
+                
+                <tr>
+                    <td>30</td>
+                    <td>36</td>
+                    <td>0.2322</td>
+                </tr>
+                
+                <tr>
+                    <td>28</td>
+                    <td>30</td>
+                    <td>0.1935</td>
+                </tr>
+                
+                <tr>
+                    <td>-1</td>
+                    <td>30</td>
+                    <td>0.1935</td>
+                </tr>
+                
+            </tbody>
+
+        </table>
+
+    </div>
+
+
+</div>
+-->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="bootstrap.min.js" ></script>
+</body>
+
+</html>
