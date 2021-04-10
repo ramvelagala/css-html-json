@@ -1,1 +1,100 @@
-
+{
+  "result": [
+    {
+      "rows": 15505.0,
+      "cardinality": 501.0,
+      "uniqueness": 3.2312,
+      "nulls": 0.0,
+      "non_nulls": 15505.0
+    },
+    {
+      "median": 248.0,
+      "mean": 249.808771,
+      "maximum": 500.0,
+      "minimum": -1.0,
+      "standard_deviation": 5.76
+    },
+    {
+      "value_metric": [
+        {
+          "top_value": 223,
+          "top_val_count": 49,
+          "top_coverage": 0.316
+        },
+        {
+          "top_value": 13,
+          "top_val_count": 48,
+          "top_coverage": 0.3096
+        },
+        {
+          "top_value": 108,
+          "top_val_count": 47,
+          "top_coverage": 0.3031
+        },
+        {
+          "top_value": 478,
+          "top_val_count": 46,
+          "top_coverage": 0.2967
+        },
+        {
+          "top_value": 52,
+          "top_val_count": 46,
+          "top_coverage": 0.2967
+        }
+      ]
+    },
+    {
+      "value_metric_2": [
+        {
+          "bot_value": 270,
+          "bot_val_count": 16,
+          "bot_coverage": 0.1032
+        },
+        {
+          "bot_value": 24,
+          "bot_val_count": 17,
+          "bot_coverage": 0.1096
+        },
+        {
+          "bot_value": 329,
+          "bot_val_count": 18,
+          "bot_coverage": 0.1161
+        },
+        {
+          "bot_value": 107,
+          "bot_val_count": 18,
+          "bot_coverage": 0.1161
+        },
+        {
+          "bot_value": 454,
+          "bot_val_count": 19,
+          "bot_coverage": 0.1225
+        }
+      ]
+    },
+    {
+      "focus_metric": [
+        {
+          "count": 37,
+          "coverage": 0.2386,
+          "focus_value": 22
+        },
+        {
+          "count": 36,
+          "coverage": 0.2322,
+          "focus_value": 30
+        },
+        {
+          "count": 30,
+          "coverage": 0.1935,
+          "focus_value": 28
+        },
+        {
+          "count": 30,
+          "coverage": 0.1935,
+          "focus_value": -1
+        }
+      ]
+    }
+  ]
+}
