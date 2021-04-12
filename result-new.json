@@ -1,1 +1,530 @@
-
+{
+  "result": {
+    "PROFILER_TESTING": [
+      {
+        "COL_INT": [
+          {
+            "meta_data": {
+              "table": "PROFILER_TESTING",
+              "column": "COL_INT",
+              "data_type": "INTEGER",
+              "is_nullable": true
+            }
+          },
+          {
+            "domain_metric": {
+              "subject": {
+                "table": "PROFILER_TESTING",
+                "column": "COL_INT",
+                "data_type": "INTEGER",
+                "is_nullable": true
+              },
+              "rows": 315.0,
+              "cardinality": 221.0,
+              "uniqueness": 70.1587,
+              "nulls": 0.0
+            }
+          },
+          {
+            "range_metric": {
+              "subject": {
+                "table": "PROFILER_TESTING",
+                "column": "COL_INT",
+                "data_type": "INTEGER",
+                "is_nullable": true
+              },
+              "median": 255.0,
+              "mean": 261.549206,
+              "maximum": 500.0,
+              "minimum": -1.0,
+              "standard_deviation": 0.64
+            }
+          },
+          {
+            "val_metric_1": [
+              {
+                "subject": {
+                  "table": "PROFILER_TESTING",
+                  "column": "COL_INT",
+                  "data_type": "INTEGER",
+                  "is_nullable": true
+                },
+                "top_value": 326,
+                "top_val_count": 4,
+                "top_coverage": 1.2698
+              },
+              {
+                "subject": {
+                  "table": "PROFILER_TESTING",
+                  "column": "COL_INT",
+                  "data_type": "INTEGER",
+                  "is_nullable": true
+                },
+                "top_value": 82,
+                "top_val_count": 4,
+                "top_coverage": 1.2698
+              },
+              {
+                "subject": {
+                  "table": "PROFILER_TESTING",
+                  "column": "COL_INT",
+                  "data_type": "INTEGER",
+                  "is_nullable": true
+                },
+                "top_value": 458,
+                "top_val_count": 3,
+                "top_coverage": 0.9524
+              },
+              {
+                "subject": {
+                  "table": "PROFILER_TESTING",
+                  "column": "COL_INT",
+                  "data_type": "INTEGER",
+                  "is_nullable": true
+                },
+                "top_value": 199,
+                "top_val_count": 3,
+                "top_coverage": 0.9524
+              },
+              {
+                "subject": {
+                  "table": "PROFILER_TESTING",
+                  "column": "COL_INT",
+                  "data_type": "INTEGER",
+                  "is_nullable": true
+                },
+                "top_value": 153,
+                "top_val_count": 3,
+                "top_coverage": 0.9524
+              }
+            ]
+          },
+          {
+            "val_metric_2": [
+              {
+                "subject": {
+                  "table": "PROFILER_TESTING",
+                  "column": "COL_INT",
+                  "data_type": "INTEGER",
+                  "is_nullable": true
+                },
+                "bot_value": 69,
+                "bot_val_count": 1,
+                "bot_coverage": 0.3175
+              },
+              {
+                "subject": {
+                  "table": "PROFILER_TESTING",
+                  "column": "COL_INT",
+                  "data_type": "INTEGER",
+                  "is_nullable": true
+                },
+                "bot_value": 446,
+                "bot_val_count": 1,
+                "bot_coverage": 0.3175
+              },
+              {
+                "subject": {
+                  "table": "PROFILER_TESTING",
+                  "column": "COL_INT",
+                  "data_type": "INTEGER",
+                  "is_nullable": true
+                },
+                "bot_value": 402,
+                "bot_val_count": 1,
+                "bot_coverage": 0.3175
+              },
+              {
+                "subject": {
+                  "table": "PROFILER_TESTING",
+                  "column": "COL_INT",
+                  "data_type": "INTEGER",
+                  "is_nullable": true
+                },
+                "bot_value": 59,
+                "bot_val_count": 1,
+                "bot_coverage": 0.3175
+              },
+              {
+                "subject": {
+                  "table": "PROFILER_TESTING",
+                  "column": "COL_INT",
+                  "data_type": "INTEGER",
+                  "is_nullable": true
+                },
+                "bot_value": 493,
+                "bot_val_count": 1,
+                "bot_coverage": 0.3175
+              }
+            ]
+          },
+          {
+            "focus_metric": [
+              {
+                "coverage": 0.3175,
+                "focus_value": 20,
+                "count": 1,
+                "subject": {
+                  "table": "PROFILER_TESTING",
+                  "column": "COL_INT",
+                  "data_type": "INTEGER",
+                  "is_nullable": true
+                }
+              },
+              {
+                "coverage": 0.3175,
+                "focus_value": 30,
+                "count": 1,
+                "subject": {
+                  "table": "PROFILER_TESTING",
+                  "column": "COL_INT",
+                  "data_type": "INTEGER",
+                  "is_nullable": true
+                }
+              },
+              {
+                "coverage": 0.0,
+                "focus_value": "Ram",
+                "count": 0,
+                "subject": {
+                  "table": "PROFILER_TESTING",
+                  "column": "COL_INT",
+                  "data_type": "INTEGER",
+                  "is_nullable": true
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "COL_STR": [
+          {
+            "meta_data": {
+              "table": "PROFILER_TESTING",
+              "column": "COL_STR",
+              "data_type": "CHARACTER VARYING(255)",
+              "is_nullable": true,
+              "character_maximum_length": 255
+            }
+          },
+          {
+            "domain_metric": {
+              "subject": {
+                "table": "PROFILER_TESTING",
+                "column": "COL_STR",
+                "data_type": "CHARACTER VARYING(255)",
+                "is_nullable": true,
+                "character_maximum_length": 255
+              },
+              "rows": 315.0,
+              "cardinality": 120.0,
+              "uniqueness": 38.0952,
+              "nulls": 0.0
+            }
+          },
+          {
+            "range_metric": {
+              "subject": {
+                "table": "PROFILER_TESTING",
+                "column": "COL_STR",
+                "data_type": "CHARACTER VARYING(255)",
+                "is_nullable": true,
+                "character_maximum_length": 255
+              },
+              "median": 6.0,
+              "mean": 5.87619,
+              "maximum": 10.0,
+              "minimum": 3.0,
+              "standard_deviation": 1.63
+            }
+          },
+          {
+            "val_metric_1": [
+              {
+                "subject": {
+                  "table": "PROFILER_TESTING",
+                  "column": "COL_STR",
+                  "data_type": "CHARACTER VARYING(255)",
+                  "is_nullable": true,
+                  "character_maximum_length": 255
+                },
+                "top_value": "Vanessa",
+                "top_val_count": 10,
+                "top_coverage": 3.1746
+              },
+              {
+                "subject": {
+                  "table": "PROFILER_TESTING",
+                  "column": "COL_STR",
+                  "data_type": "CHARACTER VARYING(255)",
+                  "is_nullable": true,
+                  "character_maximum_length": 255
+                },
+                "top_value": "Kelsey",
+                "top_val_count": 10,
+                "top_coverage": 3.1746
+              },
+              {
+                "subject": {
+                  "table": "PROFILER_TESTING",
+                  "column": "COL_STR",
+                  "data_type": "CHARACTER VARYING(255)",
+                  "is_nullable": true,
+                  "character_maximum_length": 255
+                },
+                "top_value": "Melissa",
+                "top_val_count": 6,
+                "top_coverage": 1.9048
+              },
+              {
+                "subject": {
+                  "table": "PROFILER_TESTING",
+                  "column": "COL_STR",
+                  "data_type": "CHARACTER VARYING(255)",
+                  "is_nullable": true,
+                  "character_maximum_length": 255
+                },
+                "top_value": "William",
+                "top_val_count": 6,
+                "top_coverage": 1.9048
+              },
+              {
+                "subject": {
+                  "table": "PROFILER_TESTING",
+                  "column": "COL_STR",
+                  "data_type": "CHARACTER VARYING(255)",
+                  "is_nullable": true,
+                  "character_maximum_length": 255
+                },
+                "top_value": "Kellan",
+                "top_val_count": 6,
+                "top_coverage": 1.9048
+              }
+            ]
+          },
+          {
+            "val_metric_2": [
+              {
+                "subject": {
+                  "table": "PROFILER_TESTING",
+                  "column": "COL_STR",
+                  "data_type": "CHARACTER VARYING(255)",
+                  "is_nullable": true,
+                  "character_maximum_length": 255
+                },
+                "bot_value": "Valeria",
+                "bot_val_count": 1,
+                "bot_coverage": 0.3175
+              },
+              {
+                "subject": {
+                  "table": "PROFILER_TESTING",
+                  "column": "COL_STR",
+                  "data_type": "CHARACTER VARYING(255)",
+                  "is_nullable": true,
+                  "character_maximum_length": 255
+                },
+                "bot_value": "Ted",
+                "bot_val_count": 1,
+                "bot_coverage": 0.3175
+              },
+              {
+                "subject": {
+                  "table": "PROFILER_TESTING",
+                  "column": "COL_STR",
+                  "data_type": "CHARACTER VARYING(255)",
+                  "is_nullable": true,
+                  "character_maximum_length": 255
+                },
+                "bot_value": "Grace",
+                "bot_val_count": 1,
+                "bot_coverage": 0.3175
+              },
+              {
+                "subject": {
+                  "table": "PROFILER_TESTING",
+                  "column": "COL_STR",
+                  "data_type": "CHARACTER VARYING(255)",
+                  "is_nullable": true,
+                  "character_maximum_length": 255
+                },
+                "bot_value": "Antony",
+                "bot_val_count": 1,
+                "bot_coverage": 0.3175
+              },
+              {
+                "subject": {
+                  "table": "PROFILER_TESTING",
+                  "column": "COL_STR",
+                  "data_type": "CHARACTER VARYING(255)",
+                  "is_nullable": true,
+                  "character_maximum_length": 255
+                },
+                "bot_value": "Emma",
+                "bot_val_count": 1,
+                "bot_coverage": 0.3175
+              }
+            ]
+          },
+          {
+            "focus_metric": [
+              {
+                "coverage": 0.0,
+                "focus_value": "20",
+                "count": 0,
+                "subject": {
+                  "table": "PROFILER_TESTING",
+                  "column": "COL_STR",
+                  "data_type": "CHARACTER VARYING(255)",
+                  "is_nullable": true,
+                  "character_maximum_length": 255
+                }
+              },
+              {
+                "coverage": 0.0,
+                "focus_value": "30",
+                "count": 0,
+                "subject": {
+                  "table": "PROFILER_TESTING",
+                  "column": "COL_STR",
+                  "data_type": "CHARACTER VARYING(255)",
+                  "is_nullable": true,
+                  "character_maximum_length": 255
+                }
+              },
+              {
+                "coverage": 0.0,
+                "focus_value": "Ram",
+                "count": 0,
+                "subject": {
+                  "table": "PROFILER_TESTING",
+                  "column": "COL_STR",
+                  "data_type": "CHARACTER VARYING(255)",
+                  "is_nullable": true,
+                  "character_maximum_length": 255
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "COL_DATE": [
+          {
+            "meta_data": {
+              "table": "PROFILER_TESTING",
+              "column": "COL_DATE",
+              "data_type": "CHARACTER VARYING(255)",
+              "is_nullable": true,
+              "character_maximum_length": 255
+            }
+          },
+          {
+            "domain_metric": {
+              "subject": {
+                "table": "PROFILER_TESTING",
+                "column": "COL_DATE",
+                "data_type": "CHARACTER VARYING(255)",
+                "is_nullable": true,
+                "character_maximum_length": 255
+              },
+              "rows": 315.0,
+              "cardinality": 1.0,
+              "uniqueness": 0.3175,
+              "nulls": 0.0
+            }
+          },
+          {
+            "range_metric": {
+              "subject": {
+                "table": "PROFILER_TESTING",
+                "column": "COL_DATE",
+                "data_type": "CHARACTER VARYING(255)",
+                "is_nullable": true,
+                "character_maximum_length": 255
+              },
+              "median": 10.0,
+              "mean": 10.0,
+              "maximum": 10.0,
+              "minimum": 10.0,
+              "standard_deviation": 0
+            }
+          },
+          {
+            "val_metric_1": [
+              {
+                "subject": {
+                  "table": "PROFILER_TESTING",
+                  "column": "COL_DATE",
+                  "data_type": "CHARACTER VARYING(255)",
+                  "is_nullable": true,
+                  "character_maximum_length": 255
+                },
+                "top_value": "2021-03-15",
+                "top_val_count": 315,
+                "top_coverage": 100.0
+              }
+            ]
+          },
+          {
+            "val_metric_2": [
+              {
+                "subject": {
+                  "table": "PROFILER_TESTING",
+                  "column": "COL_DATE",
+                  "data_type": "CHARACTER VARYING(255)",
+                  "is_nullable": true,
+                  "character_maximum_length": 255
+                },
+                "bot_value": "2021-03-15",
+                "bot_val_count": 315,
+                "bot_coverage": 100.0
+              }
+            ]
+          },
+          {
+            "focus_metric": [
+              {
+                "coverage": 0.0,
+                "focus_value": "20",
+                "count": 0,
+                "subject": {
+                  "table": "PROFILER_TESTING",
+                  "column": "COL_DATE",
+                  "data_type": "CHARACTER VARYING(255)",
+                  "is_nullable": true,
+                  "character_maximum_length": 255
+                }
+              },
+              {
+                "coverage": 0.0,
+                "focus_value": "30",
+                "count": 0,
+                "subject": {
+                  "table": "PROFILER_TESTING",
+                  "column": "COL_DATE",
+                  "data_type": "CHARACTER VARYING(255)",
+                  "is_nullable": true,
+                  "character_maximum_length": 255
+                }
+              },
+              {
+                "coverage": 0.0,
+                "focus_value": "Ram",
+                "count": 0,
+                "subject": {
+                  "table": "PROFILER_TESTING",
+                  "column": "COL_DATE",
+                  "data_type": "CHARACTER VARYING(255)",
+                  "is_nullable": true,
+                  "character_maximum_length": 255
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
